@@ -5,7 +5,7 @@ jobs:
 - job: buildallsln
   displayName: Build Solutions 
   pool:
-    vmImage: 'windows-2022'
+    vmImage: 'windows-2025-vs2026'
   steps:
   - task: NuGetAuthenticate@1
   - task: UseDotNet@2
